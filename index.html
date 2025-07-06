@@ -1,0 +1,282 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Abdulrahman Portfolio</title>
+    <link rel="stylesheet" href="styles/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
+    <!-- AOS Library CSS -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+</head>
+
+
+<body>
+    <!-- Header Section -->
+    <header>
+        <div class="navbar">
+            <div class="container">
+                <!-- left side -->
+                <div class="left-side">
+                    <button id="theme-toggle" class="theme-toggle">
+                        <i id="theme-icon" class="fas fa-moon"></i>
+                    </button>
+                    <a href="#Home" class="brand-link">
+                        <h4>
+                            <span class="first-name">Abdulrahman</span>
+                            <span class="last-name">Muhammed</span>
+                        </h4>
+                    </a>
+                </div>
+
+                <!-- right side -->
+                <div class="right-side">
+                    <a href="#Home" class="nav-link">Home</a>
+                    <a href="#About" class="nav-link">About</a>
+                    <a href="#Skills" class="nav-link">Skills</a>
+                    <a href="#Projects" class="nav-link">Projects</a>
+                    <a href="#Contact" class="nav-link">Contact</a>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero-section" id="Home" data-aos="fade-up">
+        <div class="left-section">
+            <div class="social-icons">
+                <a href="https://www.linkedin.com/in/abdulrahman-muhamed-hereza-80bb45324/" target="_blank" class="icon linkedin"><i class="fab fa-linkedin-in"></i></a>
+                <a href="https://github.com/Abulrahman-muhammed/" target="_blank" class="icon github"><i class="fab fa-github"></i></a>
+                <a href="mailto:engabdulrahmanhereza@gmail.com" class="icon email"><i class="fas fa-envelope"></i></a>
+            </div>
+
+            <div class="main-heading">
+                <h1><span class="highlight">Hi, I'm</span> Abdulrahman Muhammed</h1>
+                <h3>Backend Developer</h3>
+                <p>
+
+                    I'm a passionate and dedicated Backend Developer specializing in PHP and Laravel.
+                    I enjoy building robust, scalable, 
+                    and secure backend systems that power smooth and user-friendly web applications.
+                    <br><br>
+
+
+                    I believe that great developers never stop learning — that’s why I’m always pushing myself to stay up-to-date with the latest technologies and best practices.
+                    Outside of building backend systems, I enjoy helping others level up their coding skills and grow their confidence in tech.
+                    For me, software development isn’t just about writing code — it’s about solving real problems and making a positive impact.
+
+
+                </p>
+                <div class="hero-buttons">
+                    <a href="files/Backend-Laravel Developer.pdf" download class="btn download-btn">Download CV</a>
+                    <a href="#Contact" class="btn contact-btn">Let's Talk</a>
+                </div>
+            </div>
+        </div>
+        <div class="triangle-top-right"></div>
+        <div class="triangle-bottom-right"></div>
+    </section>
+
+
+<!-- About Section -->
+<section class="about-section" id="About" data-aos="fade-up">
+    <div class="about-container">
+
+        <!-- الصورة على الشمال -->
+        <div class="about-left">
+            <img src="media/me.jpg" alt="My Photo" class="about-image">
+        </div>
+
+        <!-- النص على اليمين -->
+        <div class="about-right">
+            <h1>About Me</h1>
+            <p>
+                I’m a backend developer specialized in PHP and Laravel, with hands-on experience in building secure, scalable, and real-time web applications.
+                Through personal projects, I’ve worked on authentication systems, RESTful APIs, localization, role-based permissions, and WebSocket-based real-time features.
+                I’m currently studying Software Engineering at the Faculty of Computers and Information, Tanta University, and always eager to learn, solve real problems, and deliver clean, maintainable code.
+            </p>
+            <div class="info-container">
+                <label><span class="info-title">Name:</span> Abdulrahman Muhammed Hereza</label><br>
+                <label><span class="info-title">Age:</span> 21</label><br>
+                <label><span class="info-title">Address:</span> Mansoura, Dakahlia, Egypt</label><br>
+                <label><span class="info-title">Education:</span> Faculty of Computers and Information, Tanta University</label>
+            </div>
+            <a href="files/Backend-Laravel Developer.pdf" target="_blank" download class="btn download-btn about-btn">Download CV</a>
+        </div>
+
+    </div>
+</section>
+
+
+
+    <!-- Skills Section -->
+    <section class="skills-section" id="Skills" data-aos="fade-up">
+        <h1 class="section-title">My Skills</h1>
+        <div class="skills-grid">
+        <div class="skill-card" data-aos="fade-up"><i class="fab fa-php"></i><h3>PHP</h3><p>Advanced</p></div>
+        <div class="skill-card" data-aos="fade-up"><i class="fas fa-project-diagram"></i><h3>OOP Concepts</h3><p>Advanced</p></div>
+        <div class="skill-card" data-aos="fade-up"><i class="fab fa-laravel"></i><h3>Laravel</h3><p>Advanced</p></div>
+        <div class="skill-card" data-aos="fade-up"><i class="fas fa-route"></i><h3>Routing & Middleware</h3><p>Advanced</p></div>
+        <div class="skill-card" data-aos="fade-up"><i class="fas fa-database"></i><h3>MySQL & Eloquent ORM</h3><p>Advanced</p></div>
+        <div class="skill-card" data-aos="fade-up"><i class="fas fa-user-shield"></i><h3>Authentication</h3><p>Breeze, Socialite</p></div>
+        <div class="skill-card" data-aos="fade-up"><i class="fas fa-user-lock"></i><h3>Authorization</h3><p>Spatie Permissions</p></div>
+        <div class="skill-card" data-aos="fade-up"><i class="fas fa-globe"></i><h3>Localization</h3><p>Mcamara, Spatie Translation</p></div>
+        <div class="skill-card" data-aos="fade-up"><i class="fas fa-broadcast-tower"></i><h3>Real-time</h3><p>Laravel Echo, WebSockets</p></div>
+        <div class="skill-card" data-aos="fade-up"><i class="fas fa-plug"></i><h3>RESTful APIs</h3><p>Advanced</p></div>
+        <div class="skill-card" data-aos="fade-up"><i class="fab fa-html5"></i><h3>HTML</h3><p>Intermediate</p></div>
+        <div class="skill-card" data-aos="fade-up"><i class="fab fa-css3-alt"></i><h3>CSS</h3><p>Intermediate</p></div>
+        <div class="skill-card" data-aos="fade-up"><i class="fab fa-js"></i><h3>JavaScript (Basic)</h3><p>Familiar</p></div>
+        <div class="skill-card" data-aos="fade-up"><i class="fab fa-git-alt"></i><h3>Git & GitHub</h3><p>Good Practice</p></div>
+
+        </div>
+    </section>
+
+
+
+    <!-- Projects Section -->
+   <section class="projects-section" id="Projects" data-aos="fade-up">
+        <h1 class="section-title">My Projects</h1>
+        <div class="projects-container">
+
+        <!-- Project 1 -->
+        <div class="project-card" data-aos="fade-up">
+            <a href="https://drive.google.com/file/d/1zg9a149ys9vEA8EmK2BOzwq7bdCv_jlT/view?usp=sharing" target="_blank">
+                <img src="media/blog-poster.png" alt="Blog Project" class="video-poster">
+            </a>
+            <div class="project-content">
+                <h3>Blog with Google Socialite</h3>
+                <p>
+                    A Laravel-based blog system with authentication (Laravel Breeze) and Google login integration via Socialite.
+                    Includes full CRUD for posts and user management.
+                </p>
+                <div class="project-links">
+                    <a href="https://github.com/Abulrahman-muhammed/blog-with-google-socialite" target="_blank" class="project-btn github">
+                        <i class="fab fa-github"></i> GitHub
+                    </a>
+                </div>
+            </div>
+        </div>
+
+
+        <!-- Project 2 -->
+        <div class="project-card" data-aos="fade-up">
+            <a href="https://drive.google.com/file/d/1rPUEeGGfCSm1wLjryltVhItTOn5A9NJC/view?usp=sharing" target="_blank">
+                <img src="media/services-dashboard.png" alt="Company Services Dashboard" class="video-poster">
+            </a>
+            <div class="project-content">
+                <h3>Services Company </h3>
+                <p>
+                    A multilingual Laravel admin dashboard for managing company services with real-time notifications.
+                    Built using Mcamara Localization, WebSockets, and Echo for instant alerts on new subscriptions.
+                </p>
+                <div class="project-links">
+                    <a href="https://github.com/Abulrahman-muhammed/laravel-services-company-dashboard-realtime-mcamara" target="_blank" class="project-btn github">
+                        <i class="fab fa-github"></i> GitHub
+                    </a>
+                </div>
+            </div>
+        </div>
+
+        <!-- Project 3 -->
+        <div class="project-card" data-aos="fade-up">
+            <a href="https://drive.google.com/file/d/1ZyJX8CVy2_2h5cTavxDAQirqP5KEQeW9/view?usp=sharing" target="_blank">
+                <img src="media/permissions-dashboard.png" alt="Admin Permissions" class="video-poster">
+            </a>
+            <div class="project-content">
+                <h3>Multi-Permissions Admin Panel</h3>
+                <p>
+                    Admin dashboard with role-based access control using Spatie Permissions.
+                    Includes CRUD operations for products and categories with route protection and middleware.
+                </p>
+                <div class="project-links">
+                    <a href="https://github.com/Abulrahman-muhammed/laravel-dashboard-with-spatie-permissions" target="_blank" class="project-btn github">
+                        <i class="fab fa-github"></i> GitHub
+                    </a>
+                </div>
+            </div>
+        </div>
+
+        <!-- Project 4 -->
+        <div class="project-card" data-aos="fade-up">
+            <a href="https://github.com/Abulrahman-muhammed/blog-api-laravel" target="_blank">
+                <img src="media/blog-api.png" alt="Blog API" class="video-poster">
+            </a>
+            <div class="project-content">
+                <h3>Blog RESTful API</h3>
+                <p>
+                    A clean and functional blog backend API built with Laravel.
+                    Features authentication, post/category management, filtering, and resource-based responses.
+                </p>
+                <div class="project-links">
+                    <a href="https://github.com/Abulrahman-muhammed/blog-api-laravel" target="_blank" class="project-btn github">
+                        <i class="fab fa-github"></i> GitHub
+                    </a>
+                </div>
+            </div>
+        </div>
+
+        </div>
+        </section>
+
+
+    <!-- Contact Section -->
+    <section class="contact-section" id="Contact" data-aos="fade-up">
+        <div class="contact-container">
+            <div class="contact-left">
+                <div class="main-heading">
+                    <h1 class="section-title">Contact Me</h1>
+                    <p>
+                        I'm always excited to connect! Whether you have an idea for collaboration,
+                        a question about my work, or just want to chat about tech,
+                        feel free to get in touch.
+                    </p>
+                    <h2>My Links:</h2>
+                    <div class="contact-links">
+                        <a href="https://www.linkedin.com/in/abdulrahman-muhamed-hereza-80bb45324/" target="_blank" class="icon linkedin"><i class="fab fa-linkedin-in"></i></a>
+                        <a href="https://github.com/Abulrahman-muhammed/" target="_blank" class="icon github"><i class="fab fa-github"></i></a>
+                        <a href="mailto:engabdulrahmanhereza@gmail.com" class="icon email"><i class="fas fa-envelope"></i></a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="contact-right">
+                <div class="form-box">
+            <form action="https://formsubmit.co/engabdulrahmanhereza@gmail.com" method="POST" class="contact-form">
+                
+                <!-- Disable CAPTCHA -->
+                <input type="hidden" name="_captcha" value="false">
+
+                <!-- Redirect after success (اختياري) -->
+                <input type="hidden" name="_next" value="https://yourdomain.com/thank-you.html">
+
+                <label for="name">Name</label>
+                <input type="text" id="name" name="name" placeholder="Enter your name" required>
+
+                <label for="email">Email</label>
+                <input type="email" id="email" name="email" placeholder="Enter your email" required>
+
+                <label for="message">Message</label>
+                <textarea id="message" name="message" placeholder="Type your message here..." required></textarea>
+
+                <button type="submit" class="btn send-btn">Send Message</button>
+            </form>
+
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- AOS Library JS -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+      AOS.init({
+        duration: 1000,
+        once: false
+      });
+    </script>
+
+    <script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
+    <script src="scripts/script.js"></script>
+</body>
+</html>
